@@ -1,0 +1,10 @@
+c:\users\jefferson.brandao\documents\visual studio 2010\Projects\Carrie\Carrie\bin\Carrie.dll
+c:\users\jefferson.brandao\documents\visual studio 2010\Projects\Carrie\Carrie\bin\Carrie.pdb
+c:\users\jefferson.brandao\documents\visual studio 2010\Projects\Carrie\Carrie\obj\Debug\Carrie.dll
+c:\users\jefferson.brandao\documents\visual studio 2010\Projects\Carrie\Carrie\obj\Debug\Carrie.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Debug\Carrie.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\bin\Carrie.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\bin\Carrie.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Debug\Carrie.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Debug\Carrie.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Debug\Carrie.csprojResolveAssemblyReference.cache

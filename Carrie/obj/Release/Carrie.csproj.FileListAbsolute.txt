@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\bin\Carrie.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\bin\Carrie.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Release\Carrie.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Release\Carrie.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\Carrie\Carrie\bin\Carrie.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\Carrie\Carrie\bin\Carrie.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Release\Carrie.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Release\Carrie.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\Carrie\Carrie\obj\Release\Carrie.csprojResolveAssemblyReference.cache
+C:\Users\bc1g7962\Downloads\progr\programas\Carrie\Carrie\bin\Carrie.dll.config
+C:\Users\bc1g7962\Downloads\progr\programas\Carrie\Carrie\bin\Carrie.dll
+C:\Users\bc1g7962\Downloads\progr\programas\Carrie\Carrie\bin\Carrie.pdb
+C:\Users\bc1g7962\Downloads\progr\programas\Carrie\Carrie\obj\Release\Carrie.csproj.AssemblyReference.cache
+C:\Users\bc1g7962\Downloads\progr\programas\Carrie\Carrie\obj\Release\Carrie.csproj.CoreCompileInputs.cache
+C:\Users\bc1g7962\Downloads\progr\programas\Carrie\Carrie\obj\Release\Carrie.dll
+C:\Users\bc1g7962\Downloads\progr\programas\Carrie\Carrie\obj\Release\Carrie.pdb

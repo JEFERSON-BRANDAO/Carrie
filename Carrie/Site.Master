@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Compras.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/icone.ico" />
+    <%-- <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />--%>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.maskedinput.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <%-- <asp:ScriptManager ID="Scriptmanager1" EnablePartialRendering="true" EnableCdn="true"
+        LoadScriptsBeforeUI="false" ScriptMode="Release" EnableScriptGlobalization="True"
+        runat="server">
+    </asp:ScriptManager>--%>
+    <asp:ScriptManager ID="Scriptmanager1" EnableScriptGlobalization="True" runat="server">
+    </asp:ScriptManager>
+    <div class="page">
+        <div class="blocoGrupoCampos">
+            <%-- <div class="header">
+                <div class="title">
+                    <h1>
+                        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" Text="" Font-Bold="true"
+                            Font-Overline="false" NavigateUrl="~/Default.aspx" ToolTip="Inicio"> carrie system</asp:HyperLink>
+                    </h1>
+                </div>
+                <br />
+                <div style="margin-left: 460px;">
+                    <asp:Label ID="LbUsuario" runat="server" ForeColor="White"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label
+                        ID="lbData" runat="server" ForeColor="White"></asp:Label>
+                </div>            
+                <div style="margin-left: 862px;">
+                    <asp:HyperLink ID="hpLinkSair" runat="server" ForeColor="Black" Text="Sair" ImageUrl="~/images/sair.png"
+                        NavigateUrl="~/sair.aspx" ToolTip="Sair">[sair]</asp:HyperLink>
+                </div>
+               
+            </div>--%>
+            <div class="header">
+                <div class="title">
+                    <h1>
+                        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" Text="" Font-Bold="true"
+                            Font-Overline="false" NavigateUrl="~/Default.aspx" ToolTip="Inicio">carrie system</asp:HyperLink>
+                    </h1>
+                </div>
+                <br />
+                <div style="margin-left: 460px;">
+                    <asp:Label ID="LbUsuario" runat="server" ForeColor="White"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label
+                        ID="lbData" runat="server" ForeColor="White"></asp:Label>
+                </div>
+                <div style="margin-left: 862px;">
+                    <asp:ImageButton ID="imgSair" runat="server" ImageUrl="~/images/sair.png" PostBackUrl="sair.aspx"
+                        ToolTip="Sair" />
+                </div>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    IncludeStyleBlock="false" Orientation="Horizontal">
+                </asp:Menu>
+            </div>
+            <div style="margin-left: 5px;">
+                <asp:Image ID="imgLogo" runat="server" ImageUrl="~/images/icon/miniLogo.png" />
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <asp:Label ID="lb_Rodape" runat="server" ForeColor="White"></asp:Label>
+    </div>
+    </form>
+</body>
+</html>

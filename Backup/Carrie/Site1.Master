@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Compras.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/icone.ico" />
+    <title>Login - Compras</title>
+    <link href="~/Styles/Site2.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page" style="width: 350px; height: 240px; margin-top: 150px; margin-left: 400px">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Login
+                </h1>
+            </div>
+            <div class="loginDisplay">
+            </div>
+            <div class="clear hideSkiplink">
+            </div>
+        </div>
+        <div class="main">
+            <asp:Image ID="imgLogo" runat="server" ImageUrl="~/images/icon/miniLogo.png" />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div style="margin-left: 400px">
+        <asp:Label ID="lblRodape" runat="server" ForeColor="White"></asp:Label>
+    </div>
+    </form>
+</body>
+</html>
